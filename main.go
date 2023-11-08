@@ -10,5 +10,6 @@ func main() {
 	word2 := packet.Hi()
 	word3 := packet.HowAreYou()
 	word4 := packet.WhatIsYourVersion()
-	fmt.Println(word, "\n", word2, "\n", word3, "\n", word4)
+	word5 := "That is finish"
+	fmt.Println(word, "\n", word2, "\n", word3, "\n", word4, "\n", word5)
 }
